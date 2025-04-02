@@ -1,0 +1,172 @@
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1400px) {
+  .section-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-containers {
+    flex-wrap: wrap;
+  }
+
+  .about-pic-container {
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+
+  #hamburger-nav {
+    display: flex;
+  }
+
+  .profile-content {
+    flex-direction: column;
+    gap: 3rem;
+    text-align: center;
+  }
+
+  .section__text {
+    align-items: center;
+  }
+
+  .hexagon {
+    width: 280px;
+    height: 280px;
+  }
+
+  .hero-title {
+    font-size: 3.5rem;
+  }
+
+  .btn-container {
+    justify-content: center;
+  }
+
+  #socials-container {
+    justify-content: center;
+  }
+
+  .project-grid {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
+
+@media screen and (max-width: 992px) {
+  section {
+    padding: 80px 5% 60px;
+  }
+
+  .section-title {
+    font-size: 2.2rem;
+  }
+
+  .tabs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tab-btn {
+    width: 80%;
+    max-width: 350px;
+  }
+
+  .project-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-title {
+    font-size: 3rem;
+  }
+
+  .animated-text .first-text,
+  .animated-text .sec-text {
+    font-size: 1.7rem;
+  }
+
+  .btn {
+    padding: 10px 20px;
+  }
+
+  .about-containers {
+    flex-direction: column;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .animated-text .first-text,
+  .animated-text .sec-text {
+    font-size: 1.5rem;
+  }
+
+  .animated-text {
+    height: 50px;
+  }
+
+  .btn-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .hexagon {
+    width: 240px;
+    height: 240px;
+  }
+
+  .tech-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .tech-icon i {
+    font-size: 18px;
+  }
+
+  .filter-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .filter-btn {
+    width: 80%;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-card {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 0.9rem;
+  }
+}
+
